@@ -784,7 +784,7 @@
 					<param
 					mask="False"
 					name="varPrivateMode"
-					value="False">
+					value="True">
 					</param>
 					<param
 					mask="False"
