@@ -293,23 +293,35 @@
 			name="setup">
 			</setup>
 			<testsuite
+			ExportColumnList="None"
 			ReportTime="RelativeToTestSuiteStartTime"
+			SelectedActions="All"
 			TracingScreenshotMode="Foreground"
 			TracingScreenshotQuality="40"
 			VideoBitrate="2000"
 			VideoFps="15"
 			VideoRecordingMode="Off"
 			VideoSource="Auto"
+			createindividualreportpdfchecked="False"
+			createsinglereportpdfchecked="True"
+			enableCSVReport="False"
 			enabletracingscreenshots="True"
+			exportAllColummns="True"
 			id="3af4be23-b57f-44c3-aa58-da54e8306794"
+			includeimageschecked="False"
+			includerecordingschecked="False"
 			junitreport="False"
+			junitreportshowerrafterstd="True"
 			name="TADashboard_Tests"
+			overwritefilechecked="False"
 			reportcompress="False"
+			reportdescription=""
 			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
 			reporttemplatefolder=""
-			reportwriteinterval="30000ms">
+			reportwriteinterval="30000ms"
+			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
 			<teardown
 			id="3e6db8cb-cb4f-4c3e-ae4f-8bbdc31cd191"
@@ -445,6 +457,7 @@
 			name="Regression">
 				<parameters>
 					<param
+					mask="False"
 					name="varPageName"
 					value="">
 					</param>
@@ -550,6 +563,7 @@
 				</description>
 				<parameters>
 					<param
+					mask="False"
 					name="varUpdatedPageName"
 					value="">
 					</param>
@@ -758,18 +772,22 @@
 			reportlevel="Info;20">
 				<parameters>
 					<param
+					mask="False"
 					name="varBrowserName"
 					value="Chrome">
 					</param>
 					<param
+					mask="False"
 					name="varPageUrl"
-					value="http://192.168.170.205:54000/TADashboard">
+					value="http://192.168.170.138:80/TADashboard">
 					</param>
 					<param
+					mask="False"
 					name="varPrivateMode"
-					value="True">
+					value="False">
 					</param>
 					<param
+					mask="False"
 					name="varArguments"
 					value="">
 					</param>
