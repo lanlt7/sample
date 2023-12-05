@@ -51,7 +51,7 @@ mode="Global">
 		enabled="True"
 		isexternaltestmethod="True"
 		methodname="InputText"
-		namespace="TADashboard_Modules.Helper_modules"
+		namespace="TADashboard_Modules"
 		optional="False">
 			<comment>
 			</comment>
@@ -73,6 +73,8 @@ mode="Global">
 						<path>
 							/dom[@path~'/TADashboard']//div[#'div_popup']//h2[@innertext~'Page']//ancestor::div[#'div_popup']//input[#'name']
 						</path>
+						<robustPath>
+						</robustPath>
 					</info>
 				</argument>
 				<argument
@@ -92,7 +94,7 @@ mode="Global">
 		enabled="True"
 		isexternaltestmethod="True"
 		methodname="SelectByText"
-		namespace="TADashboard_Modules.Helper_modules"
+		namespace="TADashboard_Modules"
 		optional="False">
 			<comment>
 			</comment>
@@ -114,6 +116,8 @@ mode="Global">
 						<path>
 							/dom[@path~'/TADashboard']//div[#'div_popup']//h2[@innertext~'Page']//ancestor::div[#'div_popup']//select[#'parent']
 						</path>
+						<robustPath>
+						</robustPath>
 					</info>
 				</argument>
 				<argument
@@ -133,7 +137,7 @@ mode="Global">
 		enabled="True"
 		isexternaltestmethod="True"
 		methodname="SelectByText"
-		namespace="TADashboard_Modules.Helper_modules"
+		namespace="TADashboard_Modules"
 		optional="False">
 			<comment>
 			</comment>
@@ -155,6 +159,8 @@ mode="Global">
 						<path>
 							/dom[@path~'/TADashboard']//div[#'div_popup']//h2[@innertext~'Page']//ancestor::div[#'div_popup']//select[#'columnnumber']
 						</path>
+						<robustPath>
+						</robustPath>
 					</info>
 				</argument>
 				<argument
@@ -174,7 +180,7 @@ mode="Global">
 		enabled="True"
 		isexternaltestmethod="True"
 		methodname="SelectByText"
-		namespace="TADashboard_Modules.Helper_modules"
+		namespace="TADashboard_Modules"
 		optional="False">
 			<comment>
 			</comment>
@@ -196,6 +202,8 @@ mode="Global">
 						<path>
 							/dom[@path~'/TADashboard']//div[#'div_popup']//h2[@innertext~'Page']//ancestor::div[#'div_popup']//select[#'afterpage']
 						</path>
+						<robustPath>
+						</robustPath>
 					</info>
 				</argument>
 				<argument
@@ -215,7 +223,7 @@ mode="Global">
 		enabled="True"
 		isexternaltestmethod="True"
 		methodname="SetCheckedState"
-		namespace="TADashboard_Modules.Helper_modules"
+		namespace="TADashboard_Modules"
 		optional="False">
 			<comment>
 			</comment>
@@ -237,6 +245,8 @@ mode="Global">
 						<path>
 							/dom[@path~'/TADashboard']//div[#'div_popup']//h2[@innertext~'Page']//ancestor::div[#'div_popup']//input[#'ispublic']
 						</path>
+						<robustPath>
+						</robustPath>
 					</info>
 				</argument>
 				<argument

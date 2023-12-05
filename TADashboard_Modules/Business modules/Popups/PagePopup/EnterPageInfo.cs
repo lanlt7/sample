@@ -144,19 +144,19 @@ namespace TADashboard_Modules.Business_modules.Popups.PagePopup
 
             Init();
 
-            Helper_modules.ControlExtension.InputText(repo.TADashboard.Popups.PagePopup.TxtPageNameInfo, modPageName);
+            ControlExtension.InputText(repo.TADashboard.Popups.PagePopup.TxtPageNameInfo, modPageName);
             Delay.Milliseconds(0);
             
-            Helper_modules.ControlExtension.SelectByText(repo.TADashboard.Popups.PagePopup.CbxParentPageInfo, modParentPage);
+            ControlExtension.SelectByText(repo.TADashboard.Popups.PagePopup.CbxParentPageInfo, modParentPage);
             Delay.Milliseconds(0);
             
-            Helper_modules.ControlExtension.SelectByText(repo.TADashboard.Popups.PagePopup.CbxNumberOfColumnsInfo, modColNumber);
+            ControlExtension.SelectByText(repo.TADashboard.Popups.PagePopup.CbxNumberOfColumnsInfo, modColNumber);
             Delay.Milliseconds(0);
             
-            Helper_modules.ControlExtension.SelectByText(repo.TADashboard.Popups.PagePopup.CbxDisplayAfterInfo, modDisplayAfter);
+            ControlExtension.SelectByText(repo.TADashboard.Popups.PagePopup.CbxDisplayAfterInfo, modDisplayAfter);
             Delay.Milliseconds(0);
             
-            Helper_modules.ControlExtension.SetCheckedState(repo.TADashboard.Popups.PagePopup.ChkIsPublicInfo, modIsPublic);
+            ControlExtension.SetCheckedState(repo.TADashboard.Popups.PagePopup.ChkIsPublicInfo, modIsPublic);
             Delay.Milliseconds(0);
             
         }

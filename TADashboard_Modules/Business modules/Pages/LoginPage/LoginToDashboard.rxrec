@@ -42,7 +42,7 @@ mode="Global">
 		enabled="True"
 		isexternaltestmethod="True"
 		methodname="SelectByText"
-		namespace="TADashboard_Modules.Helper_modules"
+		namespace="TADashboard_Modules"
 		optional="False">
 			<comment>
 			</comment>
@@ -64,6 +64,8 @@ mode="Global">
 						<path>
 							/dom[@path~'/TADashboard']//ancestor-or-self::dom[@path~'login.jsp']//select[#'repository']
 						</path>
+						<robustPath>
+						</robustPath>
 					</info>
 				</argument>
 				<argument
@@ -83,7 +85,7 @@ mode="Global">
 		enabled="True"
 		isexternaltestmethod="True"
 		methodname="InputText"
-		namespace="TADashboard_Modules.Helper_modules"
+		namespace="TADashboard_Modules"
 		optional="False">
 			<comment>
 			</comment>
@@ -105,6 +107,8 @@ mode="Global">
 						<path>
 							/dom[@path~'/TADashboard' and @browsername~'(?i:'+$repoBrowserName+')']//ancestor-or-self::dom[@path~'login.jsp']//input[#'username']
 						</path>
+						<robustPath>
+						</robustPath>
 					</info>
 				</argument>
 				<argument
@@ -124,7 +128,7 @@ mode="Global">
 		enabled="True"
 		isexternaltestmethod="True"
 		methodname="InputText"
-		namespace="TADashboard_Modules.Helper_modules"
+		namespace="TADashboard_Modules"
 		optional="False">
 			<comment>
 			</comment>
@@ -146,6 +150,8 @@ mode="Global">
 						<path>
 							/dom[@path~'/TADashboard']//ancestor-or-self::dom[@path~'login.jsp']//input[#'password']
 						</path>
+						<robustPath>
+						</robustPath>
 					</info>
 				</argument>
 				<argument
@@ -232,6 +238,8 @@ mode="Global">
 				<path>
 					/dom[@domain='192.168.170.205:54000']//div[#'content']/div/div[5]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="c85c4096-9609-4c65-8812-33fc5bd1db76">
@@ -426,6 +434,8 @@ Ax/OiigD/9k=
 				<path>
 					/dom[@path~'/TADashboard']//ancestor-or-self::dom[@path~'2f9njff6y9.page']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

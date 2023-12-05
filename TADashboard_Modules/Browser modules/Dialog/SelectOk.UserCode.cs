@@ -20,7 +20,6 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 using TADashboard_Modules.Extension;
-using TADashboard_Modules.Helper_modules;
 
 namespace TADashboard_Modules.Browser_modules.Dialog
 {

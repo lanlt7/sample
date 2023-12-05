@@ -19,7 +19,7 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace TADashboard_Modules.Extension
+namespace TADashboard_Modules
 {
     /// <summary>
     /// Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
@@ -27,6 +27,16 @@ namespace TADashboard_Modules.Extension
     [UserCodeCollection]
     public class ValidateExtension
     {
+    	/// <summary>
+    	/// This is a placeholder text. Please describe the purpose of the
+    	/// user code method here. The method is published to the user code library
+    	/// within a user code collection.
+    	/// </summary>
+    	[UserCodeMethod]
+    	public static void UserCodeMethodabc(string url, string browser, Duration timeout)
+    	{
+    		Host.Current.OpenBrowser(url, browser);
+    	}
     	/// <summary>
     	/// This is a placeholder text. Please describe the purpose of the
     	/// user code method here. The method is published to the user code library

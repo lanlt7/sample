@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 using TADashboard_Modules.Extension;
 using System.Linq;
 
-namespace TADashboard_Modules.Helper_modules
+namespace TADashboard_Modules
 {
     /// <summary>
     /// Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.

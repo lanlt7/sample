@@ -118,11 +118,11 @@ namespace TADashboard_Modules.Business_modules.Pages.LoginPage
 
             Init();
 
-            Helper_modules.ControlExtension.SelectByText(repo.TADashboard.Pages.LoginPage.CbxRepositoryInfo, modDashboardRepo);
+            ControlExtension.SelectByText(repo.TADashboard.Pages.LoginPage.CbxRepositoryInfo, modDashboardRepo);
             
-            Helper_modules.ControlExtension.InputText(repo.TADashboard.Pages.LoginPage.TxtUsernameInfo, modUsername);
+            ControlExtension.InputText(repo.TADashboard.Pages.LoginPage.TxtUsernameInfo, modUsername);
             
-            Helper_modules.ControlExtension.InputText(repo.TADashboard.Pages.LoginPage.TxtPasswordInfo, modPassword);
+            ControlExtension.InputText(repo.TADashboard.Pages.LoginPage.TxtPasswordInfo, modPassword);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TADashboard.Pages.LoginPage.BtnLogin' at Center.", repo.TADashboard.Pages.LoginPage.BtnLoginInfo, new RecordItemIndex(3));
             repo.TADashboard.Pages.LoginPage.BtnLogin.Click();

@@ -89,7 +89,7 @@ namespace TADashboard_Modules.Business_modules.Pages.MainPage.MainMenu
 
             Init();
 
-            Extension.ValidateExtension.ValidateNotExists(repo.TADashboard.Pages.BasePage.MainMenu.LnkPageTabInfo, ValueConverter.ArgumentFromString<Ranorex.Duration>("searchTimeout", "5000ms"));
+            ValidateExtension.ValidateNotExists(repo.TADashboard.Pages.BasePage.MainMenu.LnkPageTabInfo, ValueConverter.ArgumentFromString<Ranorex.Duration>("searchTimeout", "5000ms"));
             Delay.Milliseconds(0);
             
         }

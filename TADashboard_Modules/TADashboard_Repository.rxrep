@@ -47,6 +47,7 @@ name="TADashboard_Repository">
 						id="9c71dcab-bd63-4f2d-97c9-1fb22d097b56"
 						name="LnkChoosePanels"
 						refimgid="8eb3fe6a-461c-499b-a59f-711ed4fb9b7c"
+						robustPath=""
 						searchtimeout="30000ms">
 							/dom[@path~'/TADashboard']//div[#'main-menu']//li[@class~'mn-panels']/a
 						</item>
@@ -57,6 +58,7 @@ name="TADashboard_Repository">
 						id="44a702c5-59b4-4a8e-9644-397cd2cf7241"
 						name="LnkGlobalSetting"
 						refimgid="8eb3fe6a-461c-499b-a59f-711ed4fb9b7c"
+						robustPath=""
 						searchtimeout="30000ms">
 							/dom[@path~'/TADashboard']//div[#'main-menu']//li[@class~'mn-setting']/a
 						</item>
@@ -67,6 +69,7 @@ name="TADashboard_Repository">
 						id="72859d0d-5511-4a56-9d2a-2deee83227ba"
 						name="LnkPageTab"
 						refimgid="8eb3fe6a-461c-499b-a59f-711ed4fb9b7c"
+						robustPath=""
 						searchtimeout="30000ms">
 							/dom[@path~'/TADashboard']//div[#'main-menu']//a[@innertext=$repoTabName]
 						</item>
@@ -84,6 +87,7 @@ name="TADashboard_Repository">
 							id="0aa23f00-c028-46c3-9071-7cb839846a42"
 							name="LnkSetting"
 							refimgid="b4d61c5f-304d-4a62-b82d-9170acfdc64a"
+							robustPath=""
 							searchtimeout="30000ms">
 								/dom[@path~'/TADashboard']//div[#'main-menu']//li[@class~'mn-setting']//a[@innertext=$repoSettingName]
 							</item>
@@ -110,6 +114,7 @@ name="TADashboard_Repository">
 						id="8a80a1f8-f139-4321-9edb-295d7d5e1284"
 						name="LnkUserName"
 						refimgid="5ce8dd61-9ab9-438e-bd60-c8321b2d1cdf"
+						robustPath=""
 						searchtimeout="30000ms">
 							/dom[@path~'/TADashboard']//ul[@class~'head-menu']//a[@href~'#Welcome']
 						</item>
@@ -119,6 +124,7 @@ name="TADashboard_Repository">
 						id="5b7e0f1c-60bf-4cc3-bf6f-e17f7733eed9"
 						name="LnkAdminiter"
 						refimgid="eab9b487-88b1-423a-aaef-9045c427800e"
+						robustPath=""
 						searchtimeout="30000ms">
 							/dom[@path~'/TADashboard']//ul[@class~'head-menu']//a[@innertext='Administer']
 						</item>
@@ -135,6 +141,7 @@ name="TADashboard_Repository">
 							id="6f768881-f1c8-47af-8851-a2829daa99ee"
 							name="LnkMyProfile"
 							refimgid="aff03fbc-69a8-4534-a6c7-1811880aa4ca"
+							robustPath=""
 							searchtimeout="30000ms">
 								/dom[@path~'/TADashboard']//ul[@class~'head-menu']//a[@innertext='My Profile']
 							</item>
@@ -145,6 +152,7 @@ name="TADashboard_Repository">
 							id="c28366ec-f065-406e-b909-78d649c60be9"
 							name="LnkLogout"
 							refimgid="aff03fbc-69a8-4534-a6c7-1811880aa4ca"
+							robustPath=""
 							searchtimeout="30000ms">
 								/dom[@path~'/TADashboard']//ul[@class~'head-menu']//a[@innertext='Logout']
 							</item>
@@ -161,6 +169,7 @@ name="TADashboard_Repository">
 							id="0852e3fe-0b50-4cad-a17e-820f0cda0c09"
 							name="LnkProfiles"
 							refimgid="aff03fbc-69a8-4534-a6c7-1811880aa4ca"
+							robustPath=""
 							searchtimeout="30000ms">
 								/dom[@path~'/TADashboard']//ul[@class~'head-menu']//a[@innertext='Data Profiles']
 							</item>
@@ -170,6 +179,7 @@ name="TADashboard_Repository">
 							id="256ddab0-6ca4-45a9-9985-fbc8924b6a1b"
 							name="LnkPanels"
 							refimgid="aff03fbc-69a8-4534-a6c7-1811880aa4ca"
+							robustPath=""
 							searchtimeout="30000ms">
 								/dom[@path~'/TADashboard']//ul[@class~'head-menu']//a[@innertext='Panels']
 							</item>
@@ -192,6 +202,7 @@ name="TADashboard_Repository">
 					id="ec21e19d-43ef-485e-957d-82c4b4ed50ee"
 					name="CbxRepository"
 					refimgid="aafcea79-72eb-43a0-9a4b-37ccd388d641"
+					robustPath=""
 					searchtimeout="30000ms">
 						/dom[@path~'/TADashboard']//ancestor-or-self::dom[@path~'login.jsp']//select[#'repository']
 					</item>
@@ -201,6 +212,7 @@ name="TADashboard_Repository">
 					id="f7349bed-35b7-469d-b884-9e5f5820c829"
 					name="TxtUsername"
 					refimgid="0f7bf20a-499d-4147-8790-c999cc0d894e"
+					robustPath=""
 					searchtimeout="30000ms">
 						/dom[@path~'/TADashboard']//ancestor-or-self::dom[@path~'login.jsp']//input[#'username']
 					</item>
@@ -210,6 +222,7 @@ name="TADashboard_Repository">
 					id="a8138521-04c5-474a-96a6-09ff51a6e9e3"
 					name="TxtPassword"
 					refimgid="ed16d722-68b0-4e62-8d06-179f593ac05a"
+					robustPath=""
 					searchtimeout="30000ms">
 						/dom[@path~'/TADashboard']//ancestor-or-self::dom[@path~'login.jsp']//input[#'password']
 					</item>
@@ -219,6 +232,7 @@ name="TADashboard_Repository">
 					id="c2f8961b-29cd-48b0-8154-f18658f69c20"
 					name="BtnLogin"
 					refimgid="addc5238-d1b8-4db3-9c14-08ed572f1879"
+					robustPath=""
 					searchtimeout="30000ms">
 						/dom[@path~'/TADashboard']//ancestor-or-self::dom[@path~'login.jsp']//div[#'content']/?/div[@class~'btn-login']
 					</item>
@@ -291,6 +305,7 @@ name="TADashboard_Repository">
 					id="ecc2d7fe-b3ac-4e28-9a44-7d534d986504"
 					name="TxtPageName"
 					refimgid="e0f6d04b-afd9-4f54-95f7-7ba93fcc52bf"
+					robustPath=""
 					searchtimeout="30000ms">
 						/dom[@path~'/TADashboard']//div[#'div_popup']//h2[@innertext~'Page']//ancestor::div[#'div_popup']//input[#'name']
 					</item>
@@ -300,6 +315,7 @@ name="TADashboard_Repository">
 					id="27b12cc6-5b92-407a-983c-7be67d2cc4c4"
 					name="CbxParentPage"
 					refimgid="eafef3f9-0509-4bbf-9da5-5383e7df014e"
+					robustPath=""
 					searchtimeout="30000ms">
 						/dom[@path~'/TADashboard']//div[#'div_popup']//h2[@innertext~'Page']//ancestor::div[#'div_popup']//select[#'parent']
 					</item>
@@ -309,6 +325,7 @@ name="TADashboard_Repository">
 					id="8cc5e892-8e37-4b53-93a6-85632ce106c7"
 					name="CbxNumberOfColumns"
 					refimgid="86832c57-e324-434d-a06b-4ee49e554a84"
+					robustPath=""
 					searchtimeout="30000ms">
 						/dom[@path~'/TADashboard']//div[#'div_popup']//h2[@innertext~'Page']//ancestor::div[#'div_popup']//select[#'columnnumber']
 					</item>
@@ -318,6 +335,7 @@ name="TADashboard_Repository">
 					id="cd08dd84-c6ba-4490-9413-124bb60f8d7f"
 					name="CbxDisplayAfter"
 					refimgid="cf0ddc12-e6d0-4bb0-9d21-b4f0faa580d1"
+					robustPath=""
 					searchtimeout="30000ms">
 						/dom[@path~'/TADashboard']//div[#'div_popup']//h2[@innertext~'Page']//ancestor::div[#'div_popup']//select[#'afterpage']
 					</item>
@@ -327,6 +345,7 @@ name="TADashboard_Repository">
 					id="c69f688c-f5eb-4f3f-848f-a6ebf7007d29"
 					name="ChkIsPublic"
 					refimgid="92d5f5fa-9bfe-4e3e-8cc7-503baeffaef1"
+					robustPath=""
 					searchtimeout="30000ms">
 						/dom[@path~'/TADashboard']//div[#'div_popup']//h2[@innertext~'Page']//ancestor::div[#'div_popup']//input[#'ispublic']
 					</item>
@@ -336,6 +355,7 @@ name="TADashboard_Repository">
 					id="c15c02fd-568b-4925-99a9-328ef5ecef62"
 					name="BtnOk"
 					refimgid="e8f5a657-0d22-42a0-9aed-a611b820b32d"
+					robustPath=""
 					searchtimeout="30000ms">
 						/dom[@path~'/TADashboard']//div[#'div_popup']//h2[@innertext~'Page']//ancestor::div[#'div_popup']//input[#'OK']
 					</item>
@@ -412,6 +432,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 				id="6fc1675f-eae1-4ba7-aec2-fbb078dc2805"
 				name="ButtonOK"
 				refimgid="a271d351-94d4-46db-a188-a6c9d9337835"
+				robustPath=""
 				searchtimeout="30000ms">
 					/form//form[@accessiblerole='Dialog']//button[@accessiblename='OK']
 				</item>

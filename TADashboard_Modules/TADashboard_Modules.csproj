@@ -161,8 +161,17 @@
       <UserCode>true</UserCode>
       <id>830d3af9-eee1-4ad3-8a2a-f83eaed54d6b</id>
     </Compile>
+    <Compile Include="Business modules\Utilities\UserCodeCollection1.cs">
+      <id>a2f37af6-9aa9-48cf-9499-30b67bf72100</id>
+    </Compile>
     <Compile Include="Extension\CommonExtension.cs">
       <id>e3104077-b629-4f7b-aa26-065caa935961</id>
+    </Compile>
+    <Compile Include="Extension\Click.cs">
+      <id>7ee1dc81-edf7-4369-8dd6-e135d20d9086</id>
+    </Compile>
+    <Compile Include="Extension\UserCodeTest.cs">
+      <id>f58e6772-ceb0-4b8b-a496-c3bf6008867f</id>
     </Compile>
     <Compile Include="Extension\ValidateExtension.cs">
       <id>76711a97-ecf3-49b0-a48e-189dee5af88e</id>

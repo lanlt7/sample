@@ -30,7 +30,7 @@ mode="Global">
 		enabled="True"
 		isexternaltestmethod="True"
 		methodname="ValidateExists"
-		namespace="TADashboard_Modules.Extension"
+		namespace="TADashboard_Modules"
 		optional="False">
 			<comment>
 			</comment>
@@ -52,6 +52,8 @@ mode="Global">
 						<path>
 							/dom[@path~'/TADashboard']//div[#'main-menu']//a[@innertext=$repoTabName]
 						</path>
+						<robustPath>
+						</robustPath>
 					</info>
 				</argument>
 				<argument
